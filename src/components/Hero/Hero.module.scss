@@ -1,0 +1,27 @@
+.hero {
+  @apply text-white;
+}
+.heroContainer {
+  @apply max-w-[800px] mt-[-96px] h-screen mx-auto text-center flex flex-col justify-center;
+  .heroGreanParagraph {
+    @apply text-[#00df9a] md:text-4xl sm:text-3xl text-2xl font-bold p-2 uppercase;
+  }
+  h1 {
+    @apply md:text-7xl sm:text-6xl text-4xl font-bold md:py-6;
+  }
+  div {
+    @apply flex justify-center items-center;
+  }
+  div p {
+    @apply md:text-5xl sm:text-4xl text-xl font-bold py-4;
+  }
+  .lastParagraph {
+    @apply md:text-2xl text-xl font-bold text-gray-500;
+  }
+  .typed {
+    @apply text-white md:text-5xl sm:text-4xl text-xl font-bold pl-2 uppercase;
+  }
+  .btn {
+    @apply bg-[#00df9a] w-[200px] rounded-md my-6 mx-auto py-3 text-black;
+  }
+}

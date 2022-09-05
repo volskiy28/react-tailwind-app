@@ -1,0 +1,34 @@
+.navbar {
+  @apply flex items-center justify-between h-24 max-w-[1240px] mx-auto px-4 text-white;
+}
+.logo {
+  @apply w-full text-3xl text-[#00df9a] font-bold;
+}
+.navLinks {
+  @apply hidden md:flex;
+  li {
+    @apply p-4;
+  }
+}
+.burger {
+  @apply block md:hidden;
+}
+.burgerNav {
+  @apply fixed left-0 top-0 w-[60%] h-full border-r-gray-100 bg-[#000300] ease-in-out duration-500;
+}
+.burgerNavHidden {
+  @apply left-[-100%] fixed;
+}
+.burgerLogo {
+  @apply w-full text-3xl font-bold text-[#00df9a] mt-[30px] m-4;
+}
+
+.burgerNavLinks {
+  @apply uppercase p-4;
+  li {
+    @apply p-4 border-b border-gray-600;
+  }
+  li:last-child {
+    @apply border-none;
+  }
+}
